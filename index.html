@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="duply.css">
+    <title>Task 01</title>
+</head>
+
+<body>
+    <section class="container">  
+        <form action="#">
+             <center><h3 id="main" class="heading">Registration Form</h3></center>
+<table>
+  <tr>
+    <th>
+    <div class="row">
+     <label for="fname">First Name</label>  
+    </div>    
+    </th>
+    <th>
+        <div class="row lastName">
+        <label for="lname">Last Name</label>           
+       </div>
+    </th>
+  </tr>
+  <tr>
+    <td>
+        <div class="row">
+     <input type="text" placeholder="First Name" name="myFirstName" id="fname" required>   
+        </div>
+    </td>
+    <td>
+         <input type="text" placeholder="Last Name" name="myLastName" id="lname" required>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>
+            <div class="row">
+                <label for="dob">Birthday</label>
+            </div>    
+    </th>
+    <th>
+         <div class="rowx">
+         <label for="gender">Gender</label>
+         </div>
+    </th>
+  </tr>
+  <tr>
+    <td>
+       <input type="date" name="myDob" id="dob" required>
+    </td>
+    <td>
+           <div class="genbox">
+          <input type="radio" name="myGen" id="gender"> <span class="gen">Male</span> 
+          <input type="radio" name="myGen" id="gender"> <span class="gen">Female</span>
+      </div>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>
+            <div class="row">
+                <label for="email">Email</label>
+
+            </div>   
+    </th>
+    <th>
+            <div class="row pNumber">
+                <label for="phone">Phone Number</label>
+                
+            </div>    </th>
+  </tr>
+  <tr>
+    <td>
+        <input type="email" placeholder="Email Address" name="myEmail" id="email" required>
+    </td>
+    <td>
+        <input type="number" placeholder="Phone Number" name="myNumber" id="phone" required>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>
+            <div class="row subject">
+                <label for="option">Subject</label>
+            </div>  
+    </th>
+  </tr>
+  <tr>
+    <td>
+<select name="opt" id="option" required>
+                    <option value="#">Choose Option</option>
+                    <option value="WE">Web Engineering</option>
+                    <option value="DM">Data Mining</option>
+                    <option value="IS">Information Security</option>
+                </select>
+    </td>
+  </tr>
+</table>
+        <center>
+        <button type="submit">Submit</button>
+        </center>
+</form>
+</section>
+</body>
+
+</html>

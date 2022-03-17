@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: deepskyblue  ;
+    width: 370px ;
+	margin: 200px auto 0px auto;
+}
+form{
+	background-color: lightgray;
+	width: 100%;
+	font-family: Georgia;
+	font-size: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color: black;
+}
